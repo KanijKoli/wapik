@@ -1,0 +1,818 @@
+/* ==================== */
+/* Basic Setup */
+/* ==================== */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 65%;
+    scroll-behavior: smooth;
+}
+body{
+    font-family: fantasy;
+    text-rendering: optimizeLegibility;
+    line-height: 1.3;
+    font-size: 1.6rem;
+}
+
+/* =================HOME==HOME==HOME==HOME==HOME================= */
+
+/* ==================== */
+/* Header Section */
+/* ==================== */
+
+/* Navigation */
+
+.header-section{
+    background-image: url(../img/home/home-head-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 45vmax;
+    padding-top: 1rem;
+    box-shadow: 0rem 5rem 15rem #183536 inset;
+}
+nav{
+    border-bottom: .1rem solid #6b8081;
+}
+.navbar-brand{
+    color: #fff;
+    font-size: 2.8rem;
+    padding-right: 2rem;
+}
+.navbar-brand:hover{
+    color: #fff;
+    text-decoration: none;
+}
+.navbar-number{
+    color: #fff;
+    font-size: 1.3rem;
+    border-left: .2rem solid #6b8081;
+    padding-left: 2rem;
+}
+.navbar-number:hover{
+    color: #fff;
+    text-decoration: none;
+}
+.nav-phone{
+    padding-right: 1rem;
+}
+nav ul{
+	list-style-type:none;
+}
+nav ul li{
+    padding: .6rem;
+}
+nav ul li a{
+	text-decoration:none;
+	display:block;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: bold;
+    letter-spacing: .1rem;
+}
+nav ul li a:hover{
+    color: #fff;
+}
+.get-active{
+    background-color: #7d8e8e;
+    color: #fff;
+    padding: .5rem;
+}
+.start-active{
+    background-color: #7d8e8e;
+    color: #fff;
+    padding: .5rem;
+}
+
+.active{
+    color: #fff;
+}
+
+/* Header Text */
+
+.header-text{
+    width: 40%;
+    padding-top: 13rem;
+}
+.welcome{
+    color: #fff;
+    font-size: 3rem;
+    padding-bottom: 1rem;
+}
+.welcome-paragraph{
+    color: #fff;
+    font-size: 1.4rem;
+    padding-bottom: 1.5rem;
+}
+.btn-learn{
+    color:#fff;
+    font-size: 1.3rem;
+    background-color:#6fb048;
+    padding: 1.4rem;
+    text-transform: uppercase;
+    width: 12rem;
+    text-align: center;
+    border-radius: 3%;
+    font-weight: bold;
+}
+
+
+/* ==================== */
+/* Feature Section */
+/* ==================== */
+
+/* Feature Top */
+
+.feature-section{
+    color: #0f5f5c;
+    padding-bottom: 5rem;
+}
+.feature-top{
+    padding-top: 6rem;
+    padding-bottom: 5.4rem;
+}
+.best-header{
+    font-size: 3rem;
+}
+.best-header::after{
+    content: '';
+    background:#6fb048;
+    display: block;
+    height: .2rem;
+    width: 6rem;
+    margin: 1.5rem auto; 
+}
+.best-paragraph{
+    font-size: 1.4rem;
+}
+.feature-header{
+    font-size: 2rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+.feature-paragraph{
+    font-size: 1.2rem;
+}
+
+/* Traingle */
+
+.traingle{
+    padding-top: 4rem;
+    padding-bottom: 6rem;
+}
+
+/* Browser */
+
+.browser-header{
+    font-size: 2rem;
+    padding-left: 1rem;
+}
+.browser-paragraph{
+    font-size: 1.2rem;
+    padding-top: 1.5rem;
+    padding-bottom: 3rem;
+}
+.browser-first{
+    padding-bottom: 3rem;
+}
+
+/* ==================== */
+/* Hand Section */
+/* ==================== */
+
+/* Hand Top */
+
+.hand-section{
+    background-image: url(../img/home/hand-bg.jpg);
+    background-size: cover;
+    height: 85vh;
+    color: #0f5f5c;
+    padding-bottom: 10rem;
+}
+.hand-top{
+    padding-top: 4rem;
+    padding-bottom: 5.4rem;
+}
+.hand-header{
+    font-size: 3rem;
+    padding-top: 1.5rem;
+}
+.hand-header::after{
+    content: '';
+    background:#6fb048;
+    display: block;
+    height: .2rem;
+    width: 6rem;
+    margin: 1.5rem auto; 
+}
+.hand-paragraph{
+    font-size: 1.4rem;
+}
+.ready-header{
+    font-size: 3rem;
+    padding-top: 2rem;
+    padding-bottom: 1.5rem;
+}
+.ready-paragraph{
+    font-size: 1.4rem;
+    padding-bottom: 1.8rem;
+}
+.ready-point{
+    font-size: 1.4rem;
+}
+.right-sign{
+    font-size: 2rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+}
+
+/* ==================== */
+/* Direct Section */
+/* ==================== */
+
+.direct-section{
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+}
+.member-detail{
+    padding-top: 13rem;
+}
+.member-paragraph{
+    font-size: 1.8rem;
+    color: #83a7a5;
+    padding-bottom: 1rem;
+    text-align: initial;
+}
+.member-name{
+    font-size: 1.6rem;
+    color: #8cc06d;
+}
+.member-work{
+    font-size: 1.6rem;
+    color: #83a7a5;
+}
+
+/* ==================== */
+/* Map Section */
+/* ==================== */
+
+.map-section{
+    background-image: url(../img/home/section-map-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 65vh;
+    color: #0f5f5c;
+}
+.map-detail{
+    padding-top: 12rem;
+}
+.map-header{
+    font-size: 3rem;
+    padding-bottom: 1.5rem;
+}
+.map-paragraph{
+    font-size: 1.6rem;
+    text-align: initial;
+}
+
+/* ==================== */
+/* Pricing Section */
+/* ==================== */
+
+.pricing-header{
+    font-size: 3rem;
+    padding-top: 7rem;
+    color: #0f5f5c;
+}
+.pricing-header::after{
+    content: '';
+    background:#6fb048;
+    display: block;
+    height: .2rem;
+    width: 6rem;
+    margin: 1.5rem auto; 
+}
+.pricing-paragraph{
+    font-size: 1.4rem;
+    padding-bottom: 3rem;
+    color: #0f5f5c;
+}
+.price-plan{
+    width: 70%;
+    text-align: center;
+}
+.card-type{
+    text-transform: uppercase;
+    padding-top: 1rem;   
+    padding-bottom: 1.5rem;   
+    font-size: 1.8rem;
+    color: #6fb048;
+}
+.card-balance{
+    font-size: 5rem;
+    color: #0f5f5c;
+    font-weight: bold;
+}
+.card-time{
+    font-size: 1.5rem;
+    color: #0f5f5c;
+}
+.card-text{
+    padding-top: 3rem;
+    padding-bottom: 2.5rem;
+    color: #8badab;
+    font-size: 1.6rem;
+}
+.card-body{
+    padding: 3rem;
+}
+.card-plan{
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    color:#fff;
+    background-color:#83a7a5;
+    padding: 1.5rem;
+    width: 16rem;
+    border-radius: 3%;
+}
+.card-mid-plan{
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    color:#fff;
+    background-color:#6fb048;
+    padding: 1.5rem;
+    width: 16rem;
+    border-radius: 3%;
+}
+
+/* ==================== */
+/* Include Section */
+/* ==================== */
+
+.include-section{
+    padding-top: 8rem;   
+    padding-bottom: 4rem;  
+}
+.include-header{
+    font-size: 2.5rem;
+    padding-bottom: 3rem;
+    color: #0f5f5c;
+}
+.include-header::after{
+    content: '';
+    background:#6fb048;
+    display: block;
+    height: .2rem;
+    width: 6rem;
+    margin: 1.5rem auto; 
+}
+.include-right-sign{
+    color: #87aaa8;
+    padding-right: 1.5rem;
+    padding-bottom: 1rem;
+}
+.include-point{
+    color: #87aaa8;
+    padding-bottom: 2.2rem;
+}
+
+/* ==================== */
+/* Help Section */
+/* ==================== */
+
+.help-section{
+    padding-bottom: 8rem;  
+}
+.need{
+    font-size: 3rem;
+    padding-top: 2rem;    
+    color: #6fb048;
+}
+.need::after{
+    content: '';
+    background:#6fb048;
+    display: block;
+    height: .2rem;
+    width: 6rem;
+    margin: 1.5rem auto; 
+}
+.include-text{
+    color: #87aaa8;
+    font-size: 1.5rem;
+    padding-bottom: 3rem;
+}
+.include-email{
+    color: #0f5f5c;
+    font-weight: bold;
+}
+
+/* ==================== */
+/* Download Section */
+/* ==================== */
+
+.download-section{
+    background-image: url(../img/home/download-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-top: 8rem;   
+    padding-bottom: 8rem;  
+}
+.download-header{
+    color: #0f5f5c;
+    font-size: 2.2rem;
+}
+.download-text{
+    color: #0f5f5c;
+    font-size: 1.4rem;
+}
+.download{
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    background-color: #6fb048;
+    padding: 2rem;
+    color: #fff;
+    font-weight: bold;
+    max-width: 30rem;
+}
+
+/* ==================== */
+/* Downmenu Section */
+/* ==================== */
+
+.downmenu-section{
+    padding-top: 6rem;   
+    padding-bottom: 2rem;
+    color: #83a7a5;  
+}
+ul li{
+    text-decoration: none;
+}
+ul li a{
+    color: #83a7a5; 
+    font-size: 1.4rem;
+}
+ul li a:hover{
+    color: #0f5f5c; 
+}
+.menu-1{
+    color: #0f5f5c; 
+    font-size: 2.4rem;
+    padding-bottom: .5rem;
+    font-weight: bold;
+}
+.menu-email{
+    color: #0f5f5c;
+}
+.menu-2{
+    color: #0f5f5c; 
+    font-size: 1.8rem;
+    padding-bottom: 1.2rem;
+}
+.menu-3{
+    color: #0f5f5c; 
+    font-size: 1.8rem;
+    padding-bottom: 1.2rem;
+}
+.menu-4{
+    color: #0f5f5c; 
+    font-size: 1.8rem;
+    padding-bottom: 1.2rem;
+}
+.flex-column{
+
+}
+.menu-text{
+    font-size: 1.4rem;
+    padding-bottom: 1.5rem;
+}
+.down-down{
+    padding-bottom: 4rem;
+    border-bottom: .1rem solid #6b7f7f;
+}
+
+/* ==================== */
+/* Footer Section */
+/* ==================== */
+
+.footer-section{
+    padding-bottom: 1.5rem;
+}
+.footer-icon{
+    padding-left: .5rem;
+}
+.footer-text{
+    font-size: 1.6rem;
+    color: #83a7a5; 
+    float: left;
+}
+.footer-icon{
+    float: right;
+}
+.enter-email-text{
+    background-color: #eef1ec;
+    color: #0f5f5c;
+    border-right: none;
+    font-size: 1.2rem;
+}
+.enter-email-icon{
+    background-color: #eef1ec;
+    color: #6fb048;
+    border-left: none;
+    font-size: 1.3rem;
+}
+
+/* =========== ABOUT US == ABOUT US == ABOUT US == ABOUT US == ABOUT US =========== */
+
+/* ==================== */
+/* Header Section */
+/* ==================== */
+
+/* Navigation */
+
+.about-header-section{
+    background-image: url(../img/about/about-head-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    padding-top: 1rem;
+    box-shadow: 0rem 5rem 15rem #183536 inset;
+}
+.trail-header{
+    text-align: center;
+    font-size: 4rem;
+    color: #fff;
+    padding-top: 12rem;
+    padding-bottom: 3rem;
+}
+.btn-about-learn{
+    color:#fff;
+    font-size: 1.3rem;
+    background-color:#6fb048;
+    padding: 1.8rem;
+    text-transform: uppercase;
+    width: 22rem;
+    text-align: center;
+    border-radius: 3%;
+    font-weight: bold;
+    display: inline-block;
+}
+
+/* About Detail */
+
+.about-detail{
+    color: #0f5f5c;
+    padding-bottom: 7rem;
+}
+
+/* Meet Team Section */
+
+.meet-team{
+    background-color: #eef1ec;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+.team-header{
+    text-align: center;
+    font-size: 3.5rem;
+    color: #0f5f5c;
+    padding-bottom: 2rem;
+}
+.team-header::after{
+    content: '';
+    background:#6fb048;
+    display: block;
+    height: .2rem;
+    width: 6rem;
+    margin: 1.5rem auto; 
+}
+.team-paragraph{
+    font-size: 1.4rem;
+    color: #0f5f5c;
+    padding-bottom: 5rem;
+    text-align: center;
+}
+.meet-team-img{
+    text-align: center;
+}
+.meet-team-header{
+    color: #0f5f5c;
+    font-size: 1.6rem;
+    padding-left: 2.5rem;
+    padding-top: 1.6rem;
+}
+.meet-team-paragraph{
+    color: #0f5f5c;
+    font-size: 1.2rem;
+    padding-left: 2.5rem;
+    padding-top: .5rem;
+}
+
+/* About Download Section */
+
+.about-download-section{
+    background-image: url(../img/about/about-download-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-top: 8rem;   
+    padding-bottom: 8rem;
+}
+.about-download-header{
+    color: #fff;
+    font-size: 2.2rem;
+}
+.about-download-text{
+    color: #fff;
+    font-size: 1.4rem;
+}
+.about-download{
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    background-color: #49732f;
+    padding: 2rem;
+    color: #fff;
+    font-weight: bold;
+    max-width: 30rem;
+}
+
+/* =========== PRICING & PLAN == PRICING & PLAN == PRICING & PLAN == PRICING & PLAN == PRICING & PLAN =========== */
+
+/* ==================== */
+/* Header Section */
+/* ==================== */
+
+/* Navigation */
+
+.pricing-plan-header{
+    background-color: #eef1ec;
+}
+nav ul li a{
+    color: #8aacaa;
+    padding-top: .5rem;
+}
+.pricing-navbar-brand{
+    color: #8aacaa;
+    font-size: 2.8rem;
+    padding-right: 2rem;
+}
+.pricing-navbar-brand:hover{
+    color: #0f5f5c;
+    text-decoration: none;
+}
+.pricing-navbar-number{
+    color: #8aacaa;
+    font-size: 1.3rem;
+    border-left: .2rem solid #6b8081;
+    padding-left: 2rem;
+}
+.pricing-navbar-number:hover{
+    color: #0f5f5c;
+    text-decoration: none;
+}
+.plan-nav-link:hover{
+    color: #10a39c;
+    text-decoration: none;
+}
+.double-active{
+    color: #6fb048;
+}
+.get-start{
+    background-color: #6fb048;
+    padding: .5rem;
+    color: #fff;
+}
+.get-start:hover{
+    color: #fff;
+}
+
+/* Pricing & Plan */
+
+.price-nav{
+    padding-bottom: 2rem;
+}
+.pricing-plan-section{
+    background-color: #eef1ec;
+}
+.pricing-plan-header{
+    font-size: 3rem;
+    padding-top: 1.5rem;
+    color:#0f5f5c;
+}
+.pricing-plan-paragraph{
+    font-size: 1.4rem;
+    padding-top: 1.5rem;
+    padding-bottom: 4rem;
+    color:#0f5f5c;
+}
+.limited{
+    color: #83a7a5;
+    text-align: center;
+    padding-top: 2.8rem;
+    padding-bottom: 5rem;
+}
+
+/* =========== CONTACT US == CONTACT US == CONTACT US == CONTACT US == CONTACT US =========== */
+
+/* ==================== */
+/* Header Section */
+/* ==================== */
+
+/* Navigation */
+
+.contact-header{
+    background-color: #fff;
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+}
+.contact-navbar-brand{
+    color: #8aacaa;
+    font-size: 2.8rem;
+    padding-right: 2rem;
+}
+.contact-navbar-brand:hover{
+    color: #0f5f5c;
+    text-decoration: none;
+}
+.contact-navbar-number{
+    color: #0f5f5c;
+    font-size: 1.3rem;
+    border-left: .2rem solid #6b8081;
+    padding-left: 2rem;
+}
+.contact-navbar-number:hover{
+    color: #0f5f5c;
+    text-decoration: none;
+}
+.contact-nav{
+    border-bottom: none;
+}
+
+/* From Section */
+
+.form-section{
+    width: 70%;
+    color: #0f5f5c;
+    padding-bottom: 5rem;
+}
+.form-top{
+    padding-top: 6rem;
+    padding-bottom: 5.4rem;
+}
+.form-header{
+    font-size: 3rem;
+}
+.form-header::after{
+    content: '';
+    background:#6fb048;
+    display: block;
+    height: .2rem;
+    width: 6rem;
+    margin: 1.5rem auto; 
+}
+.form-paragraph{
+    font-size: 1.4rem;
+}
+.contact-form{
+    color: #0f5f5c;
+    padding: 2rem;
+    font-size: 1.4rem;
+    margin-bottom: 2rem;
+}
+/* Main Form */
+.get-form-message{
+    color:#fff;
+    font-size: 1.3rem;
+    background-color:#6fb048;
+    padding: 1.8rem;
+    text-transform: uppercase;
+    width: 25rem;
+    display: inline-block;
+    text-align: center;
+    border-radius: 3%;
+    font-weight: bold;
+    text-decoration: none;
+}
+.get-form-message:hover{
+    text-decoration: none;
+}
+.get-contact-form{
+    padding-bottom: 1.4rem;
+}
+/* Side Form */
+.side-form{
+    padding: 3rem;
+    border: .1rem dashed #49732f;
+}
+.head-quarter{
+    font-size: 3rem;
+    padding-bottom: 2rem;
+}
+.side-form-icon{
+    padding-right: 1.5rem;
+    color: #6fb048;
+}
+.side-form-detail{
+    font-size: 1.5rem;
+}

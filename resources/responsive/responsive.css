@@ -1,0 +1,132 @@
+/* ==================== */
+/* ========HOME======== */
+/* ==================== */
+
+@media (min-width: 575.98px) and (max-width: 991.98px){
+
+    /* Header Section */
+
+    .header-text{
+        width: 100%;
+        text-align: center;
+    }
+    .btn-learn{
+        font-size: 1.2rem;
+        padding: 1rem;
+    }
+
+    /* Feature Section */
+
+    .feature-paragraph{
+        padding-bottom: 4rem;
+    }
+    .feature-section{
+        padding-bottom: 0;
+    }
+    
+    /* Hand Section */
+
+    .hand-section{
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+        
+    /* Direct Section */
+
+    .member-detail{
+        padding-top: 0rem;
+    }
+        
+    /* Pricing Section */
+
+    .card-type{
+        font-size: 1.3rem;
+    }
+    .card-balance{
+        font-size: 3rem;
+    }
+    .card-plan{
+        font-size: 1rem;
+        padding: 1rem;
+        width: 10rem;
+    }
+    .card-mid-plan {
+        font-size: 1rem;
+        padding: 1rem;
+        width: 10rem;
+    }
+    .card-time{
+        font-size: 1.2rem;
+    }
+    .card-text{
+        font-size: 1.4rem;
+    }
+        
+    /* Download Section */
+
+    .download-header{
+        text-align: center;
+    }
+    .download-text{
+        text-align: center;
+    }
+        
+    /* Downmenu Section */
+
+    .drop-menu{
+        padding-bottom: 3rem;
+    }
+    .down-down{
+        padding-bottom: 0rem;
+    }
+        
+    /* Footer Section */
+
+    .footer-text{
+        float: left;
+    }
+    .footer-icon{
+        float: right;
+    }
+    .footer-section{
+        padding-bottom: 1.2rem;
+    }
+}
+@media (min-width: 850px) and (max-width: 950px){
+	.header-section{
+		height: 55vmax;
+	}
+}
+@media (min-width: 576px) and (max-width: 849px){
+	.header-section{
+		height: 70vmax;
+	}
+}
+@media (min-width: 350px) and (max-width: 575px){
+	.header-section{
+		height: 85vmax;
+	}
+}
+
+/* ==================== */
+/* ========ABOUT US======== */
+/* ==================== */
+
+@media (min-width: 575.98px) and (max-width: 991.98px){
+    /* Meet Team */
+    .meet-team{
+        text-align: center;
+    }
+    .meet-team-paragraph{
+        padding-bottom: 3rem;
+    }
+    /* About Download */
+    .about-download-section{
+        text-align: center;
+    }
+}
+
+/* ==================== */
+/* ========PRICING & PLAN======== */
+/* ==================== */
+
